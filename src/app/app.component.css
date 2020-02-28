@@ -1,6 +1,6 @@
 header {
   background: linear-gradient(to bottom, white 42%, #c5e8f3 93%);
-  display: grid;
+  display: flex;
   width: 100%;
   grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
   position: fixed;
@@ -8,7 +8,19 @@ header {
   left: 0;
   grid-template-rows: 100%;
   height: 50px;
+  justify-content: flex-end;
 }
+nav {
+  grid-template-columns: repeat(auto-fit, minmax(100px, 200px));
+  grid-template-rows: auto;
+  height: 100%;
+  display: grid;
+  position: relative;
+  grid-template-columns: 100px 100px repeat(auto-fit, minmax(100px, auto));
+  justify-items: center;
+  align-items: center;
+}
+
 main {
   position: absolute;
   top: 50px;
