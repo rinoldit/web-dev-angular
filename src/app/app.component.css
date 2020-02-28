@@ -1,5 +1,5 @@
 header {
-  background: linear-gradient(to bottom, #c5e8f3, white);
+  background: linear-gradient(to bottom, white 42%, #c5e8f3 93%);
   display: grid;
   width: 100%;
   grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
@@ -27,7 +27,7 @@ footer {
   position: absolute;
   bottom: 0;
   height: 12vh;
-  background: linear-gradient(to bottom, #f5dbc6 90%, #967f7f);
+  background: linear-gradient(to bottom, #fbd3af 71%, #ca7831 89%);
   left: 0;
   right: 0;
 }
