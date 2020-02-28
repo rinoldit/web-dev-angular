@@ -17,6 +17,7 @@ main {
   overflow: auto;
   left: 0px;
   right: 0px;
+  bottom: 30px;
 }
 
 footer {
@@ -26,7 +27,7 @@ footer {
   line-height: 20px;
   position: absolute;
   bottom: 0;
-  height: 12vh;
+  height: 30px;
   background: linear-gradient(to bottom, #fbd3af 71%, #ca7831 89%);
   left: 0;
   right: 0;
