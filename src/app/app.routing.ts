@@ -1,11 +1,7 @@
 import { RouterModule, Routes, PreloadAllModules } from '@angular/router';
-import { AppComponent } from './app.component';
 
 export const routes: Routes = [
   { path: 'home', loadChildren: () => import('./home/home.module').then(m => m.HomeModule) },
-  {
-    path: 'nayan', loadChildren: () => import('./nyan/nyan.module').then(m => m.NyanModule)
-  },
   {
     path: '', pathMatch: 'full', redirectTo: 'home'
   }

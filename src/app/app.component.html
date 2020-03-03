@@ -1,14 +1,13 @@
 <header>
-    <nav>
-        <a routerLink="/home"> Home </a>
-        <a routerLink="/nayan"> Nyan </a>
-    </nav>
+  <nav>
+    <a routerLink="/home"> Home </a>
+  </nav>
 </header>
 
 <main>
-    <router-outlet>
-        <span *ngIf="isLoading"> loading</span>
-    </router-outlet>
+  <router-outlet>
+    <span *ngIf="isLoading"> loading</span>
+  </router-outlet>
 
 </main>
 

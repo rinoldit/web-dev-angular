@@ -1,0 +1,10 @@
+#profile-image-container {
+  width: 30%;
+  height: 30%;
+}
+#profile-image-container img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
